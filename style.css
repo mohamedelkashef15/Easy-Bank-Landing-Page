@@ -30,7 +30,17 @@ ul {
 
 /* Header Start*/
 #home #navbar {
-  display: flex;
+  background-color: red;
 }
+
+#home #navbar .navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#home #navbar .navbar-content {}
 
 /* Header End*/

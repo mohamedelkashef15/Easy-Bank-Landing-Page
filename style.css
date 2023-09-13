@@ -58,6 +58,11 @@ ul {
   border-radius: 25px;
   font-size: 16px;
   font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
 }
 
 /* Header Start*/
@@ -77,7 +82,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  height: 80px;
+  padding: 20px 0;
   margin: auto;
 }
 
@@ -90,6 +95,11 @@ ul {
 #home #navbar .navbar-content ul li a {
   margin: 0 10px;
   color: var(--grayish-blue);
+  padding: 20px 0;
+}
+
+#home #navbar .navbar-content ul li a:hover {
+  border-bottom: 4px solid var(--secondary-color);
 }
 
 #home .home-content .row {
@@ -186,6 +196,12 @@ ul {
 #articles .row .col .col-content h3 {
   font-weight: 300;
   margin: 12px 0;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+#articles .row .col .col-content h3:hover {
+  color: var(--secondary-color);
 }
 
 #articles .row .col .col-content .author {
@@ -230,10 +246,21 @@ ul {
   width: 25px;
 }
 
-#footer .row .col-2 ul li,
-#footer .row .col-3 ul li {
-  color: var(--light-gray);
+#footer .row .col-1 .social img:hover {
+  color: var(--secondary-color);
+}
+
+#footer .row ul li {
   margin: 15px 0;
+}
+
+#footer .row ul li a {
+  color: var(--light-gray);
+  transition: all 0.3s ease;
+}
+
+#footer .row ul li a:hover {
+  color: var(--secondary-color);
 }
 
 #footer .row .col-4 {
